@@ -92,16 +92,6 @@ A lightweight Flask web application displays the precomputed maintenance priorit
 - `GET /`: Interactive web dashboard built with Bootstrap 5. Displays high-level status summary cards and a ranked priority table.
 - `GET /api/fleet`: JSON endpoint returning the prioritized engine records for external systems.
 
-### Screenshots
-
-#### Dashboard Overview (`/`)
-![Dashboard Overview](images/screenshot_dashboard.png)
-
-#### API Response (`/api/fleet`)
-![API Endpoint](images/screenshot_api.png)
-
-*(Note: If screenshots are not showing, please add `screenshot_dashboard.png` and `screenshot_api.png` to the `images/` directory).*
-
 ---
 
 ## Project Structure
@@ -117,11 +107,8 @@ engine-maintenance-priority/
 ├── README.md                # Project documentation
 ├── templates/
 │   └── index.html           # Bootstrap dashboard template
-├── tests/
-│   └── test_app.py          # Pytest suite verifying data integrity and web routes
-└── images/
-    ├── screenshot_dashboard.png  # Dashboard UI screenshot
-    └── screenshot_api.png        # API response screenshot
+└── tests/
+    └── test_app.py          # Pytest suite verifying data integrity and web routes
 ```
 
 ---
