@@ -24,7 +24,6 @@ This project uses the **NASA C-MAPSS (Commercial Modular Aero-Propulsion System 
 - **Operating Conditions:** Sea level, single operating condition.
 - **Fault Mode:** High-Pressure Compressor (HPC) degradation.
 - **Fleet Size:** 100 test engines with sensor readings up to an arbitrary point prior to failure.
-- **Citation:** Saxena, A., & Goebel, K. (2008). *Turbofan Engine Degradation Simulation Data Set*. NASA Ames Prognostics Data Repository.
 
 ---
 
